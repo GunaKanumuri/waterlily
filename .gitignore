@@ -1,0 +1,34 @@
+@"
+# Node
+node_modules/
+dist/
+build/
+
+# TypeScript/JS maps
+*.map
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+
+# Env
+.env
+.env.*.local
+
+# DB / data
+*.db
+backend/database/*.db
+
+# OS / editor
+.DS_Store
+.vscode/
+Thumbs.db
+
+# Python (if any)
+venv/
+.venv/
+__pycache__/
+*.pyc
+"@ | Out-File -Encoding utf8 .gitignore
